@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Cache directories
+.cache/
+.temp/
+
+# Test coverage
+coverage/
+
+# Supabase
+supabase/.temp/
+supabase/.branches/
+supabase/seed.sql
+
+# Misc
+*.log
+*.bak
+*.tmp
